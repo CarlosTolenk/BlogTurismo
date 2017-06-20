@@ -1,0 +1,85 @@
+/**************************Header**********************/
+/******************************************************/
+header{
+  max-height: 15vh;
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width:450px){
+  header{
+    max-height: 35vh;
+    width: 100%;
+  }
+}
+
+.img-logo{
+ margin-top: 10px;
+}
+@media screen and (max-width:450px){
+  .img-logo{
+   margin-top: 30px;
+  }
+}
+
+.img-logo img{
+  width: 180px;
+}
+.nav-list li{
+  display: inline-block;
+}
+
+.nav-list li a{
+  color: black;
+}
+
+@media screen and (max-width:450px){
+  .nav-total ul{
+    margin-left: 50px;
+  }
+  .nav-list li a{
+    width: 25%;
+  }
+}
+
+.nav-list li a i{
+  color: white;
+}
+
+.slogan{
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+/**********************Aside Redes**********************/
+/******************************************************/
+
+.contenido{
+  margin-top: 0px;
+}
+aside{
+ max-height: 420px;
+ max-width: 75px;
+ margin-top: 250px;
+}
+
+aside ul li img{
+width: 45px;
+margin-left: 15px;
+margin-top: 10px;
+}
+aside ul li img:last-child{
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:450px){
+  aside{
+   max-height: 150px;
+   max-width: 75px;
+   margin: 0;
+   display:none;
+  }
+
+
+}
+/***************************Contenido***********************/
+/***********************************************************/
